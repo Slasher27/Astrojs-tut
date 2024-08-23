@@ -1,20 +1,23 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import '../styles/global.css';
-const pageTitle = 'Home Page';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+const pageTitle = "Home Page";
 ---
 
 <Layout title={pageTitle}>
-	<Header />
-	<main>
-		
-		<h1>Welcome to <span class="text-gradient">{pageTitle}</span></h1>
+  <Header />
+  <main>
+    <h1>Welcome to <span class="text-gradient">{pageTitle}</span></h1>
 
-		<p>Aussieonlinecasino.com is your complete casino review guide to the latest Aussie online casinos. Our list of online casinos provides players with a huge variety casino games such as Pokies, Progressive Pokies, Blackjack, Roulette, Baccarat and Live Dealer Casinos Online, supplied by the best gambling software providers.</p>
-
-		
-	</main>
-	<Footer />
+    <p>
+      Aussieonlinecasino.com is your complete casino review guide to the latest
+      Aussie online casinos. Our list of online casinos provides players with a
+      huge variety casino games such as Pokies, Progressive Pokies, Blackjack,
+      Roulette, Baccarat and Live Dealer Casinos Online, supplied by the best
+      gambling software providers.
+    </p>
+  </main>
+  <Footer />
 </Layout>
